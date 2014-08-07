@@ -37,8 +37,7 @@ for tbl in root.xpath('//table'):
         's_type'       : {s_type},
         'unit'         : {unit},
         'rollup'       : {rollup},
-        'entity'       : {entity},
-        'instance_tag' : None
+        'entity'       : {entity}
     }},""".format(
             name=quote(elements[0]),
             s_type=quote(elements[1]),

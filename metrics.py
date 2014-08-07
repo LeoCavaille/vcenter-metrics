@@ -6,8 +6,7 @@ CPU_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # CPU Capacity Demand
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -16,8 +15,7 @@ CPU_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'megaHertz',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # CPU Capacity Entitlement
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -26,8 +24,7 @@ CPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'megaHertz',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # CPU Capacity Provisioned
     # Compatibility: UNKNOWN
@@ -36,8 +33,7 @@ CPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'megaHertz',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # CPU Capacity Usage
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -46,8 +42,7 @@ CPU_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'megaHertz',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # Core Utilization
     # Compatibility: UNKNOWN
@@ -56,8 +51,7 @@ CPU_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # CPU Core Count Contention
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -66,8 +60,7 @@ CPU_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # CPU Core Count Provisioned
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -76,8 +69,7 @@ CPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # CPU Core Count Usage
     # Compatibility: UNKNOWN
@@ -86,8 +78,7 @@ CPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Co-stop
     # Compatibility: 5.0.0
@@ -96,8 +87,7 @@ CPU_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'millisecond',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Worst case allocation
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -106,8 +96,7 @@ CPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'megaHertz',
         'rollup'       : 'latest',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # Demand
     # Compatibility: 5.0.0
@@ -116,8 +105,7 @@ CPU_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'megaHertz',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Entitlement
     # Compatibility: 5.0.0
@@ -126,8 +114,7 @@ CPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'megaHertz',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Extra
     # Compatibility: 3.5.0
@@ -136,8 +123,7 @@ CPU_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'millisecond',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Guaranteed
     # Compatibility: 3.5.0
@@ -146,8 +132,7 @@ CPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Idle
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -156,8 +141,7 @@ CPU_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'millisecond',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Latency
     # Compatibility: 5.0.0
@@ -166,8 +150,7 @@ CPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Max limited
     # Compatibility: 5.0.0
@@ -176,8 +159,7 @@ CPU_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'millisecond',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Overlap
     # Compatibility: 5.0.0
@@ -186,8 +168,7 @@ CPU_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'millisecond',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Ready
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -196,8 +177,7 @@ CPU_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'millisecond',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Reserved capacity
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -206,8 +186,7 @@ CPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'megaHertz',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Run
     # Compatibility: 5.0.0
@@ -216,8 +195,7 @@ CPU_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'millisecond',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Swap wait
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -226,8 +204,7 @@ CPU_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'millisecond',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # System
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -236,8 +213,7 @@ CPU_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'millisecond',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Total capacity
     # Compatibility: 4.1.0 / 5.0.0
@@ -246,8 +222,7 @@ CPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'megaHertz',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Total
     # Compatibility: UNKNOWN
@@ -256,8 +231,7 @@ CPU_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'megaHertz',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Usage
     # Compatibility: UNKNOWN
@@ -266,8 +240,7 @@ CPU_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Usage in MHz
     # Compatibility: UNKNOWN
@@ -276,8 +249,7 @@ CPU_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'megaHertz',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Used
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -286,8 +258,7 @@ CPU_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'millisecond',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Utilization
     # Compatibility: UNKNOWN
@@ -296,8 +267,7 @@ CPU_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Wait
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -306,8 +276,7 @@ CPU_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'millisecond',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
 ]
 
@@ -320,8 +289,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['Datastore'],
-        'instance_tag' : None
+        'entity'       : ['Datastore']
     },
     # Datastore Command Aborts
     # Compatibility: UNKNOWN
@@ -330,8 +298,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['Datastore'],
-        'instance_tag' : None
+        'entity'       : ['Datastore']
     },
     # Storage I/O Control aggregated IOPS
     # Compatibility: 4.1.0 / 5.0.0
@@ -340,8 +307,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage I/O Control datastore maximum queue depth
     # Compatibility: 5.0.0
@@ -350,8 +316,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage DRS datastore normalized read latency
     # Compatibility: 5.0.0
@@ -360,8 +325,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage DRS datastore normalized write latency
     # Compatibility: 5.0.0
@@ -370,8 +334,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage DRS datastore bytes read
     # Compatibility: 5.0.0
@@ -380,8 +343,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage DRS datastore read I/O rate
     # Compatibility: 5.0.0
@@ -390,8 +352,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage DRS datastore read workload metric
     # Compatibility: 5.0.0
@@ -400,8 +361,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage DRS datastore outstanding read requests
     # Compatibility: 5.0.0
@@ -410,8 +370,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage DRS datastore bytes written
     # Compatibility: 5.0.0
@@ -420,8 +379,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage DRS datastore write I/O rate
     # Compatibility: 5.0.0
@@ -430,8 +388,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage DRS datastore write workload metric
     # Compatibility: 5.0.0
@@ -440,8 +397,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage DRS datastore outstanding write requests
     # Compatibility: 5.0.0
@@ -450,8 +406,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Highest latency
     # Compatibility: 5.0.0
@@ -460,8 +415,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Average read requests per second
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -470,8 +424,7 @@ DATASTORE_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore']
     },
     # Average write requests per second
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -480,8 +433,7 @@ DATASTORE_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore']
     },
     # Read rate
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -490,8 +442,7 @@ DATASTORE_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore']
     },
     # Storage I/O Control normalized latency
     # Compatibility: 4.1.0 / 5.0.0
@@ -500,8 +451,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'microsecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Datastore Throughput Contention
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -510,8 +460,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['Datastore'],
-        'instance_tag' : None
+        'entity'       : ['Datastore']
     },
     # Datastore Throughput Usage
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -520,8 +469,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['Datastore'],
-        'instance_tag' : None
+        'entity'       : ['Datastore']
     },
     # Read latency
     # Compatibility: 4.1.0 / 5.0.0
@@ -530,8 +478,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Write latency
     # Compatibility: 4.1.0 / 5.0.0
@@ -540,8 +487,7 @@ DATASTORE_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Write rate
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -550,8 +496,7 @@ DATASTORE_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore']
     },
 ]
 
@@ -564,8 +509,7 @@ DISK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore']
     },
     # Storage Capacity Contention
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -574,8 +518,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : ['Datastore'],
-        'instance_tag' : None
+        'entity'       : ['Datastore']
     },
     # Storage Capacity Provisioned
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -584,8 +527,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['Datastore'],
-        'instance_tag' : None
+        'entity'       : ['Datastore']
     },
     # Storage Capacity Usage
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -594,8 +536,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['Datastore'],
-        'instance_tag' : None
+        'entity'       : ['Datastore']
     },
     # Commands issued
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -604,8 +545,7 @@ DISK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Commands terminated
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -614,8 +554,7 @@ DISK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore']
     },
     # Average commands issued per second
     # Compatibility: 4.1.0 / 5.0.0
@@ -624,8 +563,7 @@ DISK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Overhead due to delta disk backings
     # Compatibility: UNKNOWN
@@ -634,8 +572,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'latest',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Physical device command latency
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -644,8 +581,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Physical device read latency
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -654,8 +590,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Physical device write latency
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -664,8 +599,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Kernel command latency
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -674,8 +608,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Kernel read latency
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -684,8 +617,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Kernel write latency
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -694,8 +626,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Maximum queue depth
     # Compatibility: 4.1.0 / 5.0.0
@@ -704,8 +635,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Highest latency
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -714,8 +644,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Read requests
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -724,8 +653,7 @@ DISK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Average read requests per second
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -734,8 +662,7 @@ DISK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore']
     },
     # Write requests
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -744,8 +671,7 @@ DISK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Average write requests per second
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -754,8 +680,7 @@ DISK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore']
     },
     # Queue command latency
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -764,8 +689,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Queue read latency
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -774,8 +698,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Queue write latency
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -784,8 +707,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Read rate
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -794,8 +716,7 @@ DISK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore']
     },
     # Disk SCSI Reservation Conflicts %
     # Compatibility: UNKNOWN
@@ -804,8 +725,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Disk SCSI Reservation Conflicts
     # Compatibility: UNKNOWN
@@ -814,8 +734,7 @@ DISK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Disk Throughput Contention
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -824,8 +743,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # Disk Throughput Usage
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -834,8 +752,7 @@ DISK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # Command latency
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -844,8 +761,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystemDatastore'],
-        'instance_tag' : None
+        'entity'       : ['HostSystemDatastore']
     },
     # Read latency
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -854,8 +770,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Write latency
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -864,8 +779,7 @@ DISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Usage
     # Compatibility: UNKNOWN
@@ -874,8 +788,7 @@ DISK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Write rate
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -884,8 +797,7 @@ DISK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'Datastore']
     },
 ]
 
@@ -898,8 +810,7 @@ HBR_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # 
     # Compatibility: 5.0.0
@@ -908,8 +819,7 @@ HBR_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # 
     # Compatibility: 5.0.0
@@ -918,8 +828,7 @@ HBR_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
 ]
 
@@ -932,8 +841,7 @@ MANAGEMENTAGENT_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'megaHertz',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Memory used
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0
@@ -942,8 +850,7 @@ MANAGEMENTAGENT_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Memory swap in
     # Compatibility: 3.5.0 / 4.1.0
@@ -952,8 +859,7 @@ MANAGEMENTAGENT_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Memory swap out
     # Compatibility: 3.5.0 / 4.1.0
@@ -962,8 +868,7 @@ MANAGEMENTAGENT_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Memory swap used
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0
@@ -972,8 +877,7 @@ MANAGEMENTAGENT_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
 ]
 
@@ -986,8 +890,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Active write
     # Compatibility: 4.1.0 / 5.0.0
@@ -996,8 +899,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Memory Capacity Contention
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1006,8 +908,7 @@ MEM_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # Memory Capacity Entitlement
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1016,8 +917,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # Memory Capacity Provisioned
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1026,8 +926,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # Memory Capacity Usable
     # Compatibility: UNKNOWN
@@ -1036,8 +935,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Memory Capacity Usage
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1046,8 +944,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # 
     # Compatibility: UNKNOWN
@@ -1056,8 +953,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # 
     # Compatibility: UNKNOWN
@@ -1066,8 +962,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Memory Capacity Usage by VM overhead
     # Compatibility: UNKNOWN
@@ -1076,8 +971,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Memory Capacity Usage by VMkernel Overhead
     # Compatibility: UNKNOWN
@@ -1086,8 +980,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Compressed
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1096,8 +989,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Compression rate
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1106,8 +998,7 @@ MEM_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Consumed
     # Compatibility: UNKNOWN
@@ -1116,8 +1007,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Memory Consumed by userworlds
     # Compatibility: UNKNOWN
@@ -1126,8 +1016,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Memory Consumed by VMs
     # Compatibility: UNKNOWN
@@ -1136,8 +1025,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Decompression rate
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1146,8 +1034,7 @@ MEM_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Entitlement
     # Compatibility: 5.0.0
@@ -1156,8 +1043,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Granted
     # Compatibility: UNKNOWN
@@ -1166,8 +1052,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Heap
     # Compatibility: UNKNOWN
@@ -1176,8 +1061,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Heap free
     # Compatibility: UNKNOWN
@@ -1186,8 +1070,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Latency
     # Compatibility: 5.0.0
@@ -1196,8 +1079,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Swap in from host cache
     # Compatibility: UNKNOWN
@@ -1206,8 +1088,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Swap in rate from host cache
     # Compatibility: 5.0.0
@@ -1216,8 +1097,7 @@ MEM_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Swap out to host cache
     # Compatibility: UNKNOWN
@@ -1226,8 +1106,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Swap out rate to host cache
     # Compatibility: 5.0.0
@@ -1236,8 +1115,7 @@ MEM_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Host cache used for swapping
     # Compatibility: UNKNOWN
@@ -1246,8 +1124,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Low free threshold
     # Compatibility: 5.0.0
@@ -1256,8 +1133,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Worst case allocation
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1266,8 +1142,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'megaBytes',
         'rollup'       : 'latest',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # Overhead
     # Compatibility: UNKNOWN
@@ -1276,8 +1151,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Reserved overhead
     # Compatibility: 4.1.0 / 5.0.0
@@ -1286,8 +1160,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Overhead touched
     # Compatibility: 5.0.0
@@ -1296,8 +1169,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Reserved capacity
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1306,8 +1178,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'megaBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Memory Reserved capacity by userworlds
     # Compatibility: UNKNOWN
@@ -1316,8 +1187,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Memory Reserved capacity by VMs
     # Compatibility: UNKNOWN
@@ -1326,8 +1196,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Memory Reserved capacity by VM overhead
     # Compatibility: UNKNOWN
@@ -1336,8 +1205,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Memory Reserved capacity by VMkernel Overhead
     # Compatibility: UNKNOWN
@@ -1346,8 +1214,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Memory Reserved Capacity %
     # Compatibility: UNKNOWN
@@ -1356,8 +1223,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Shared
     # Compatibility: UNKNOWN
@@ -1366,8 +1232,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Shared common
     # Compatibility: UNKNOWN
@@ -1376,8 +1241,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # State
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1386,8 +1250,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Swap in
     # Compatibility: UNKNOWN
@@ -1396,8 +1259,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Swap in rate
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -1406,8 +1268,7 @@ MEM_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Swap out
     # Compatibility: UNKNOWN
@@ -1416,8 +1277,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Swap out rate
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -1426,8 +1286,7 @@ MEM_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Swapped
     # Compatibility: UNKNOWN
@@ -1436,8 +1295,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'ResourcePool']
     },
     # Swap target
     # Compatibility: UNKNOWN
@@ -1446,8 +1304,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Swap unreserved
     # Compatibility: UNKNOWN
@@ -1456,8 +1313,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Swap used
     # Compatibility: UNKNOWN
@@ -1466,8 +1322,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Used by VMkernel
     # Compatibility: UNKNOWN
@@ -1476,8 +1331,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Total capacity
     # Compatibility: 4.1.0 / 5.0.0
@@ -1486,8 +1340,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'megaBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Total
     # Compatibility: UNKNOWN
@@ -1496,8 +1349,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'megaBytes',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Unreserved
     # Compatibility: UNKNOWN
@@ -1506,8 +1358,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Usage
     # Compatibility: UNKNOWN
@@ -1516,8 +1367,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Balloon
     # Compatibility: UNKNOWN
@@ -1526,8 +1376,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Balloon target
     # Compatibility: UNKNOWN
@@ -1536,8 +1385,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Zero
     # Compatibility: UNKNOWN
@@ -1546,8 +1394,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Memory saved by zipping
     # Compatibility: 4.1.0 / 5.0.0
@@ -1556,8 +1403,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Zipped memory
     # Compatibility: 4.1.0 / 5.0.0
@@ -1566,8 +1412,7 @@ MEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
 ]
 
@@ -1580,8 +1425,7 @@ NETWORK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Broadcast transmits
     # Compatibility: 5.0.0
@@ -1590,8 +1434,7 @@ NETWORK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Data receive rate
     # Compatibility: 5.0.0
@@ -1600,8 +1443,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Data transmit rate
     # Compatibility: 5.0.0
@@ -1610,8 +1452,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Receive packets dropped
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -1620,8 +1461,7 @@ NETWORK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Transmit packets dropped
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -1630,8 +1470,7 @@ NETWORK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Packet receive errors
     # Compatibility: 5.0.0
@@ -1640,8 +1479,7 @@ NETWORK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Packet transmit errors
     # Compatibility: 5.0.0
@@ -1650,8 +1488,7 @@ NETWORK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Multicast receives
     # Compatibility: 5.0.0
@@ -1660,8 +1497,7 @@ NETWORK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Multicast transmits
     # Compatibility: 5.0.0
@@ -1670,8 +1506,7 @@ NETWORK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Packets received
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1680,8 +1515,7 @@ NETWORK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Packets transmitted
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1690,8 +1524,7 @@ NETWORK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Data receive rate
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1700,8 +1533,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # vNic Throughput Contention
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1710,8 +1542,7 @@ NETWORK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # pNic Packets Received and Transmitted per Second
     # Compatibility: UNKNOWN
@@ -1720,8 +1551,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # pNic Throughput Provisioned
     # Compatibility: UNKNOWN
@@ -1730,8 +1560,7 @@ NETWORK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # pNic Throughput Usable
     # Compatibility: UNKNOWN
@@ -1740,8 +1569,7 @@ NETWORK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # vNic Throughput Usage
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1750,8 +1578,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['ResourcePool']
     },
     # pNic Throughput Usage for FT
     # Compatibility: UNKNOWN
@@ -1760,8 +1587,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # pNic Throughput Usage for HBR
     # Compatibility: UNKNOWN
@@ -1770,8 +1596,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # pNic Throughput Usage for iSCSI
     # Compatibility: UNKNOWN
@@ -1780,8 +1605,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # pNic Throughput Usage for NFS
     # Compatibility: UNKNOWN
@@ -1790,8 +1614,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # pNic Throughput Usage for VMs
     # Compatibility: UNKNOWN
@@ -1800,8 +1623,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # pNic Throughput Usage for vMotion
     # Compatibility: UNKNOWN
@@ -1810,8 +1632,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Data transmit rate
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1820,8 +1641,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Unknown protocol frames
     # Compatibility: 5.0.0
@@ -1830,8 +1650,7 @@ NETWORK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Usage
     # Compatibility: UNKNOWN
@@ -1840,8 +1659,7 @@ NETWORK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
 ]
 
@@ -1854,8 +1672,7 @@ POWER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'watt',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Power Capacity Usage
     # Compatibility: UNKNOWN
@@ -1864,8 +1681,7 @@ POWER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'watt',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Host Power Capacity Provisioned
     # Compatibility: UNKNOWN
@@ -1874,8 +1690,7 @@ POWER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Energy usage
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1884,8 +1699,7 @@ POWER_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'joule',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Usage
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1894,8 +1708,7 @@ POWER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'watt',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem', 'ResourcePool']
     },
     # Cap
     # Compatibility: 4.1.0 / 5.0.0
@@ -1904,8 +1717,7 @@ POWER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'watt',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
 ]
 
@@ -1918,8 +1730,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Active (15 min. average)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1928,8 +1739,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Active (5 min. average)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1938,8 +1748,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Active (1 min. peak)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1948,8 +1757,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Active (15 min. peak)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1958,8 +1766,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Active (5 min. peak)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1968,8 +1775,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Throttled (1 min. average)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1978,8 +1784,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Throttled (15 min. average)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1988,8 +1793,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Throttled (5 min. average)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -1998,8 +1802,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Running (1 min. average)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -2008,8 +1811,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Running (15 min. average)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -2018,8 +1820,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Running (5 min. average)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -2028,8 +1829,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Running (1 min. peak)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -2038,8 +1838,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Running (15 min. peak)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -2048,8 +1847,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Running (5 min. peak)
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -2058,8 +1856,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Group CPU sample count
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -2068,8 +1865,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
     # Group CPU sample period
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -2078,8 +1874,7 @@ RESCPU_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
 ]
 
@@ -2092,8 +1887,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Average commands issued per second
     # Compatibility: 4.1.0 / 5.0.0
@@ -2102,8 +1896,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Highest latency
     # Compatibility: 5.0.0
@@ -2112,8 +1905,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Average read requests per second
     # Compatibility: 4.1.0 / 5.0.0
@@ -2122,8 +1914,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Average write requests per second
     # Compatibility: 4.1.0 / 5.0.0
@@ -2132,8 +1923,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage Adapter Outstanding I/Os
     # Compatibility: UNKNOWN
@@ -2142,8 +1932,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Storage Adapter Queue Depth
     # Compatibility: UNKNOWN
@@ -2152,8 +1941,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Storage Adapter Queue Command Latency
     # Compatibility: UNKNOWN
@@ -2162,8 +1950,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Storage Adapter Number Queued
     # Compatibility: UNKNOWN
@@ -2172,8 +1959,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Read rate
     # Compatibility: 4.1.0 / 5.0.0
@@ -2182,8 +1968,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage Adapter Throughput Contention
     # Compatibility: UNKNOWN
@@ -2192,8 +1977,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Storage Adapter Throughput Usage
     # Compatibility: UNKNOWN
@@ -2202,8 +1986,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Read latency
     # Compatibility: 4.1.0 / 5.0.0
@@ -2212,8 +1995,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Write latency
     # Compatibility: 4.1.0 / 5.0.0
@@ -2222,8 +2004,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Write rate
     # Compatibility: 4.1.0 / 5.0.0
@@ -2232,8 +2013,7 @@ STORAGEADAPTER_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
 ]
 
@@ -2246,8 +2026,7 @@ STORAGEPATH_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Storage Path Command Aborts
     # Compatibility: UNKNOWN
@@ -2256,8 +2035,7 @@ STORAGEPATH_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Average commands issued per second
     # Compatibility: 4.1.0 / 5.0.0
@@ -2266,8 +2044,7 @@ STORAGEPATH_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Highest latency
     # Compatibility: 5.0.0
@@ -2276,8 +2053,7 @@ STORAGEPATH_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Average read requests per second
     # Compatibility: 4.1.0 / 5.0.0
@@ -2286,8 +2062,7 @@ STORAGEPATH_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Average write requests per second
     # Compatibility: 4.1.0 / 5.0.0
@@ -2296,8 +2071,7 @@ STORAGEPATH_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Read rate
     # Compatibility: 4.1.0 / 5.0.0
@@ -2306,8 +2080,7 @@ STORAGEPATH_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Storage Path Throughput Contention
     # Compatibility: UNKNOWN
@@ -2316,8 +2089,7 @@ STORAGEPATH_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Storage Path Throughput Usage
     # Compatibility: UNKNOWN
@@ -2326,8 +2098,7 @@ STORAGEPATH_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Read latency
     # Compatibility: 4.1.0 / 5.0.0
@@ -2336,8 +2107,7 @@ STORAGEPATH_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Write latency
     # Compatibility: 4.1.0 / 5.0.0
@@ -2346,8 +2116,7 @@ STORAGEPATH_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Write rate
     # Compatibility: 4.1.0 / 5.0.0
@@ -2356,8 +2125,7 @@ STORAGEPATH_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
 ]
 
@@ -2370,8 +2138,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Disk usage
     # Compatibility: 4.1.0
@@ -2380,8 +2147,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Heartbeat
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -2390,8 +2156,7 @@ SYSTEM_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # OS Uptime
     # Compatibility: 5.0.0
@@ -2400,8 +2165,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'second',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Resource CPU active (1 min. average)
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2410,8 +2174,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource CPU active (5 min. average)
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2420,8 +2183,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource CPU allocation maximum, in MHz
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2430,8 +2192,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'megaHertz',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource CPU allocation minimum, in MHz
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2440,8 +2201,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'megaHertz',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource CPU allocation shares
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2450,8 +2210,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource CPU maximum limited (1 min.)
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2460,8 +2219,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource CPU maximum limited (5 min.)
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2470,8 +2228,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource CPU running (1 min. average)
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2480,8 +2237,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource CPU running (5 min. average)
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2490,8 +2246,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'percent',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource CPU usage ({rollupType})
     # Compatibility: UNKNOWN
@@ -2500,8 +2255,7 @@ SYSTEM_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'megaHertz',
         'rollup'       : 'average',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource memory allocation maximum, in KB
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2510,8 +2264,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource memory allocation minimum, in KB
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2520,8 +2273,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource memory allocation shares
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2530,8 +2282,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource memory shared
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2540,8 +2291,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource memory mapped
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2550,8 +2300,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource memory overhead
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2560,8 +2309,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource memory share saved
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2570,8 +2318,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource memory swapped
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2580,8 +2327,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource memory touched
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2590,8 +2336,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Resource memory zero
     # Compatibility: 4.0.0 / 4.1.0 / 5.0.0
@@ -2600,8 +2345,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'kiloBytes',
         'rollup'       : 'latest',
-        'entity'       : ['HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['HostSystem']
     },
     # Uptime
     # Compatibility: 3.5.0 / 4.0.0 / 4.1.0 / 5.0.0
@@ -2610,8 +2354,7 @@ SYSTEM_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'second',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine', 'HostSystem'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine', 'HostSystem']
     },
 ]
 
@@ -2624,8 +2367,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Virtual Disk Command Aborts
     # Compatibility: UNKNOWN
@@ -2634,8 +2376,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'delta',
         'unit'         : 'number',
         'rollup'       : 'summation',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Average read requests per second
     # Compatibility: 4.1.0 / 5.0.0
@@ -2644,8 +2385,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Average write requests per second
     # Compatibility: 4.1.0 / 5.0.0
@@ -2654,8 +2394,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'number',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Read rate
     # Compatibility: 4.1.0 / 5.0.0
@@ -2664,8 +2403,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Read workload metric
     # Compatibility: 5.0.0
@@ -2674,8 +2412,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Average number of outstanding read requests
     # Compatibility: 5.0.0
@@ -2684,8 +2421,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Virtual Disk Throughput Contention
     # Compatibility: UNKNOWN
@@ -2694,8 +2430,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Virtual Disk Throughput Usage
     # Compatibility: UNKNOWN
@@ -2704,8 +2439,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : [],
-        'instance_tag' : None
+        'entity'       : []
     },
     # Read latency
     # Compatibility: 4.1.0 / 5.0.0
@@ -2714,8 +2448,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Write latency
     # Compatibility: 4.1.0 / 5.0.0
@@ -2724,8 +2457,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'millisecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Write rate
     # Compatibility: 4.1.0 / 5.0.0
@@ -2734,8 +2466,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'rate',
         'unit'         : 'kiloBytesPerSecond',
         'rollup'       : 'average',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Write workload metric
     # Compatibility: 5.0.0
@@ -2744,8 +2475,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
     # Average number of outstanding write requests
     # Compatibility: 5.0.0
@@ -2754,8 +2484,7 @@ VIRTUALDISK_METRICS = [
         's_type'       : 'absolute',
         'unit'         : 'number',
         'rollup'       : 'latest',
-        'entity'       : ['VirtualMachine'],
-        'instance_tag' : None
+        'entity'       : ['VirtualMachine']
     },
 ]
 
