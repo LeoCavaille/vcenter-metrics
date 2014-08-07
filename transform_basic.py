@@ -15,7 +15,7 @@ for m in ALL_METRICS:
     if m['name'] in basic_metrics:
         BASIC_METRICS.append(m)
 
-with open('basic_metrics.py', 'w') as f:
+with open('result/basic_metrics.py', 'w') as f:
     f.write("BASIC_METRICS = [\n")
     for m in BASIC_METRICS:
         m_txt = """    {{
