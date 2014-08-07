@@ -1,0 +1,153 @@
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+<tbody><tr>
+<th width="10%" valign="middle" title="PerfCounterInfo.nameInfo.key property">Counter</th>
+<!--<th rowspan="2" width="200">Description</th>-->
+<th width="10%"><a href="vim.PerformanceManager.CounterInfo.StatsType.html" class="white" title="StatsType">StatsType</a></th>
+<th width="10%"><a href="vim.PerformanceManager.CounterInfo.Unit.html" class="white">Unit</a></th>
+
+<th width="5%"><a href="vim.HistoricalInterval.html#level" class="white" title="The 'level' property is 'null' for ESX... Statistics are collected by vCenter Server and rolled-up based on the collection-level setting (1 is the default).">Levels</a></th>
+<th width="5%"><a href="vim.PerformanceManager.CounterInfo.html" class="white" title="Per Device Level">Per<br>Device<br>Level</a></th>
+
+<th width="10%"><a href="vim.PerformanceManager.CounterInfo.RollupType.html" class="white" title="RollupType">RollupTypes</a></th>
+<th width="15%"><a href="vim.PerformanceManager.CounterInfo.html" class="white" title="PerfCounterInfo.nameInfo property is used to populate vSphere Client charts...">Labels</a></th>
+<th width="10%"><a href="vim.ManagedEntity.html" class="white" title="Entity for which the counter is supported.">Entity</a></th>
+<th width="10%"><a href="vim.PerformanceManager.MetricId.html" class="white" title="Indicates whether collection is from an &nbsp;
+individual instance or aggregate">Instance/<br>Aggregate</a></th>
+<th width="10%"><a href="" class="white" title="ESX version(s) for which this counter is supported.">ESX<br>Versions</a></th>
+</tr>
+<!-- close heading for table -->
+<tr><td rowspan="2">OIOsPct</td>
+<td>absolute</td><td>percent</td><td>3</td><td>4</td><td>average</td><td>
+Storage Adapter Outstanding I/Os
+</td><td></td><td></td><td></td></tr>
+<tr><td colspan="9">
+The percent of I/Os that have been issued but have not yet completed.
+</td></tr>
+
+
+<tr><td rowspan="2">commandsAveraged</td>
+<td>rate</td><td>number</td><td>2</td><td>2</td><td>average</td><td>
+Average commands issued per second
+</td><td>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average number of commands issued per second by the storage adapter during the collection interval.
+</td></tr>
+
+
+<tr><td rowspan="2">maxTotalLatency</td>
+<td>absolute</td><td>millisecond</td><td>3</td><td>3</td><td>latest</td><td>
+Highest latency
+</td><td>HostSystem</td><td>aggregate</td><td>5.0.0</td></tr>
+<tr><td colspan="9">
+
+</td></tr>
+
+
+<tr><td rowspan="2">numberReadAveraged</td>
+<td>rate</td><td>number</td><td>2</td><td>2</td><td>average</td><td>
+Average read requests per second
+</td><td>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average number of read commands issued per second by the storage adapter during the collection interval.
+</td></tr>
+
+
+<tr><td rowspan="2">numberWriteAveraged</td>
+<td>rate</td><td>number</td><td>2</td><td>2</td><td>average</td><td>
+Average write requests per second
+</td><td>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average number of write commands issued per second by the storage adapter during the collection interval.
+</td></tr>
+
+
+<tr><td rowspan="2">outstandingIOs</td>
+<td>absolute</td><td>number</td><td>2</td><td>2</td><td>average</td><td>
+Storage Adapter Outstanding I/Os
+</td><td></td><td></td><td></td></tr>
+<tr><td colspan="9">
+The number of I/Os that have been issued but have not yet completed.
+</td></tr>
+
+
+<tr><td rowspan="2">queueDepth</td>
+<td>absolute</td><td>number</td><td>2</td><td>2</td><td>average</td><td>
+Storage Adapter Queue Depth
+</td><td></td><td></td><td></td></tr>
+<tr><td colspan="9">
+The maximum number of I/Os that can be outstanding at a given time.
+</td></tr>
+
+
+<tr><td rowspan="2">queueLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>2</td><td>average</td><td>
+Storage Adapter Queue Command Latency
+</td><td></td><td></td><td></td></tr>
+<tr><td colspan="9">
+Average amount of time spent in the VMkernel queue, per SCSI command, during the collection interval.
+</td></tr>
+
+
+<tr><td rowspan="2">queued</td>
+<td>absolute</td><td>number</td><td>2</td><td>2</td><td>average</td><td>
+Storage Adapter Number Queued
+</td><td></td><td></td><td></td></tr>
+<tr><td colspan="9">
+The current number of I/Os that are waiting to be issued.
+</td></tr>
+
+
+<tr><td rowspan="2">read</td>
+<td>rate</td><td>kiloBytesPerSecond</td><td>2</td><td>2</td><td>average</td><td>
+Read rate
+</td><td>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Rate of reading data by the storage adapter.</td></tr>
+
+
+<tr><td rowspan="2">throughput.cont</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>4</td><td>average</td><td>
+Storage Adapter Throughput Contention
+</td><td></td><td></td><td></td></tr>
+<tr><td colspan="9">
+Average amount of time for an I/O operation to complete.
+</td></tr>
+
+
+<tr><td rowspan="2">throughput.usag</td>
+<td>rate</td><td>kiloBytesPerSecond</td><td>4</td><td>4</td><td>average</td><td>
+Storage Adapter Throughput Usage
+</td><td></td><td></td><td></td></tr>
+<tr><td colspan="9">
+The storage adapter's I/O rate.
+</td></tr>
+
+
+<tr><td rowspan="2">totalReadLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>2</td><td>average</td><td>
+Read latency
+</td><td>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average amount of time for a read operation by the storage adapter.
+Total latency = kernel latency + device latency.
+</td></tr>
+
+
+<tr><td rowspan="2">totalWriteLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>2</td><td>average</td><td>
+Write latency
+</td><td>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average amount of time for a write operation by the storage adapter.
+Total latency = kernel latency + device latency.
+</td></tr>
+
+
+<tr><td rowspan="2">write</td>
+<td>rate</td><td>kiloBytesPerSecond</td><td>2</td><td>2</td><td>average</td><td>
+Write rate
+</td><td>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Rate of writing data by the storage adapter.</td></tr>
+
+
+</tbody></table>

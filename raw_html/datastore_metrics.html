@@ -1,0 +1,208 @@
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+<tbody><tr>
+<th width="10%" valign="middle" title="PerfCounterInfo.nameInfo.key property">Counter</th>
+<!--<th rowspan="2" width="200">Description</th>-->
+<th width="10%"><a href="vim.PerformanceManager.CounterInfo.StatsType.html" class="white" title="StatsType">StatsType</a></th>
+<th width="10%"><a href="vim.PerformanceManager.CounterInfo.Unit.html" class="white">Unit</a></th>
+
+<th width="5%"><a href="vim.HistoricalInterval.html#level" class="white" title="The 'level' property is 'null' for ESX... Statistics are collected by vCenter Server and rolled-up based on the collection-level setting (1 is the default).">Levels</a></th>
+<th width="5%"><a href="vim.PerformanceManager.CounterInfo.html" class="white" title="Per Device Level">Per<br>Device<br>Level</a></th>
+
+<th width="10%"><a href="vim.PerformanceManager.CounterInfo.RollupType.html" class="white" title="RollupType">RollupTypes</a></th>
+<th width="15%"><a href="vim.PerformanceManager.CounterInfo.html" class="white" title="PerfCounterInfo.nameInfo property is used to populate vSphere Client charts...">Labels</a></th>
+<th width="10%"><a href="vim.ManagedEntity.html" class="white" title="Entity for which the counter is supported.">Entity</a></th>
+<th width="10%"><a href="vim.PerformanceManager.MetricId.html" class="white" title="Indicates whether collection is from an &nbsp;
+individual instance or aggregate">Instance/<br>Aggregate</a></th>
+<th width="10%"><a href="" class="white" title="ESX version(s) for which this counter is supported.">ESX<br>Versions</a></th>
+</tr>
+
+<!-- close heading for table -->
+<tr><td rowspan="2">busResets</td>
+<td>absolute</td><td>number</td><td>2</td><td>2</td><td>summation</td><td>
+<!-- begin labels -->
+Bus resets
+<!-- end labels -->
+</td><td>Datastore</td><td>instance</td><td></td></tr>
+<tr><td colspan="9">
+Number of SCSI-bus reset commands issued during the collection interval.
+</td></tr>
+
+
+<tr><td rowspan="2">commandsAborted</td>
+<td>absolute</td><td>number</td><td>2</td><td>2</td><td>summation</td><td>
+<!-- begin labels -->
+Datastore Command Aborts
+<!-- end labels -->
+</td><td>Datastore</td><td>instance</td><td></td></tr>
+<tr><td colspan="9">
+Number of SCSI commands aborted during the collection interval.
+</td></tr>
+
+
+<tr><td rowspan="2">datastoreIops</td>
+<td>absolute</td><td>number</td><td>1</td><td>1</td><td>average</td><td>
+Storage I/O Control aggregated IOPS
+</td><td>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Aggregate number of IO operations on the datastore.</td></tr>
+
+
+<tr><td rowspan="2">datastoreMaxQueueDepth</td>
+<td>absolute</td><td>number</td><td>1</td><td>1</td><td>latest</td><td>
+Storage I/O Control datastore maximum queue depth
+</td><td>HostSystem</td><td>instance</td><td>5.0.0</td></tr>
+<tr><td colspan="9"></td></tr>
+
+
+<tr><td rowspan="2">datastoreNormalReadLatency</td>
+<td>absolute</td><td>number</td><td>2</td><td>2</td><td>latest</td><td>
+Storage DRS datastore normalized read latency
+</td><td>HostSystem</td><td>instance</td><td>5.0.0</td></tr>
+<tr><td colspan="9"></td></tr>
+
+
+<tr><td rowspan="2">datastoreNormalWriteLatency</td>
+<td>absolute</td><td>number</td><td>2</td><td>2</td><td>latest</td><td>
+Storage DRS datastore normalized write latency
+</td><td>HostSystem</td><td>instance</td><td>5.0.0</td></tr>
+<tr><td colspan="9"></td></tr>
+
+
+<tr><td rowspan="2">datastoreReadBytes</td>
+<td>absolute</td><td>number</td><td>2</td><td>2</td><td>latest</td><td>
+Storage DRS datastore bytes read
+</td><td>HostSystem</td><td>instance</td><td>5.0.0</td></tr>
+<tr><td colspan="9"></td></tr>
+
+
+<tr><td rowspan="2">datastoreReadIops</td>
+<td>absolute</td><td>number</td><td>1</td><td>1</td><td>latest</td><td>
+Storage DRS datastore read I/O rate
+</td><td>HostSystem</td><td>instance</td><td>5.0.0</td></tr>
+<tr><td colspan="9"></td></tr>
+
+
+<tr><td rowspan="2">datastoreReadLoadMetric</td>
+<td>absolute</td><td>number</td><td>4</td><td>4</td><td>latest</td><td>
+Storage DRS datastore read workload metric
+</td><td>HostSystem</td><td>instance</td><td>5.0.0</td></tr>
+<tr><td colspan="9"></td></tr>
+
+
+<tr><td rowspan="2">datastoreReadOIO</td>
+<td>absolute</td><td>number</td><td>1</td><td>1</td><td>latest</td><td>
+Storage DRS datastore outstanding read requests
+</td><td>HostSystem</td><td>instance</td><td>5.0.0</td></tr>
+<tr><td colspan="9"></td></tr>
+
+
+<tr><td rowspan="2">datastoreWriteBytes</td>
+<td>absolute</td><td>number</td><td>2</td><td>2</td><td>latest</td><td>
+Storage DRS datastore bytes written
+</td><td>HostSystem</td><td>instance</td><td>5.0.0</td></tr>
+<tr><td colspan="9"></td></tr>
+
+
+<tr><td rowspan="2">datastoreWriteIops</td>
+<td>absolute</td><td>number</td><td>1</td><td>1</td><td>latest</td><td>
+Storage DRS datastore write I/O rate
+</td><td>HostSystem</td><td>instance</td><td>5.0.0</td></tr>
+<tr><td colspan="9"></td></tr>
+
+
+<tr><td rowspan="2">datastoreWriteLoadMetric</td>
+<td>absolute</td><td>number</td><td>4</td><td>4</td><td>latest</td><td>
+Storage DRS datastore write workload metric
+</td><td>HostSystem</td><td>instance</td><td>5.0.0</td></tr>
+<tr><td colspan="9"></td></tr>
+
+
+<tr><td rowspan="2">datastoreWriteOIO</td>
+<td>absolute</td><td>number</td><td>1</td><td>1</td><td>latest</td><td>
+Storage DRS datastore outstanding write requests
+</td><td>HostSystem</td><td>instance</td><td>5.0.0</td></tr>
+<tr><td colspan="9"></td></tr>
+
+
+<tr><td rowspan="2">maxTotalLatency</td>
+<td>absolute</td><td>millisecond</td><td>3</td><td>3</td><td>latest</td><td>
+Highest latency
+</td><td>VirtualMachine<br>HostSystem</td><td>aggregate</td><td>5.0.0</td></tr>
+<tr><td colspan="9">Highest latency value across all datastores used by the host.</td></tr>
+
+
+<tr><td rowspan="2">numberReadAveraged</td>
+<td>rate</td><td>number</td><td>1</td><td>1</td><td>average</td><td>
+Average read requests per second
+</td><td>VirtualMachine<br>HostSystem<br>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Average number of read commands issued per second to the datastore during the collection interval.</td></tr>
+
+
+<tr><td rowspan="2">numberWriteAveraged</td>
+<td>rate</td><td>number</td><td>1</td><td>1</td><td>average</td><td>
+Average write requests per second
+</td><td>VirtualMachine<br>HostSystem<br>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Average number of write commands issued per second to the datastore during the collection interval.</td></tr>
+
+
+<tr><td rowspan="2">read</td>
+<td>rate</td><td>kiloBytesPerSecond</td><td>2</td><td>2</td><td>average</td><td>
+Read rate
+</td><td>VirtualMachine<br>HostSystem<br>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Rate of reading data from the datastore.</td></tr>
+
+
+<tr><td rowspan="2">sizeNormalizedDatastoreLatency</td>
+<td>absolute</td><td>microsecond</td><td>1</td><td>1</td><td>average</td><td>
+Storage I/O Control normalized latency
+</td><td>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Normalized latency in microseconds on the datastore. Data for all virtual machines
+is combined.</td></tr>
+
+
+<tr><td rowspan="2">throughput.contention</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>1</td><td>average</td><td>
+<!-- begin labels -->
+Datastore Throughput Contention
+<!-- end labels -->
+</td><td>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average amount of time for an I/O operation to the datastore or LUN across all ESX hosts accessing it.
+</td></tr>
+
+
+<tr><td rowspan="2">throughput.usage</td>
+<td>absolute</td><td>kiloBytesPerSecond</td><td>2</td><td>1</td><td>average</td><td>
+<!-- begin labels -->
+Datastore Throughput Usage
+<!-- end labels -->
+</td><td>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+The current bandwidth usage for the datastore or LUN.
+</td></tr>
+
+
+<tr><td rowspan="2">totalReadLatency</td>
+<td>absolute</td><td>millisecond</td><td>1</td><td>1</td><td>average</td><td>
+Read latency
+</td><td>VirtualMachine<br>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Average amount of time for a read operation from the datastore.
+Total latency = kernel latency + device latency.</td></tr>
+
+
+<tr><td rowspan="2">totalWriteLatency</td>
+<td>absolute</td><td>millisecond</td><td>1</td><td>1</td><td>average</td><td>
+Write latency
+</td><td>VirtualMachine<br>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Average amount of time for a write operation to the datastore.
+Total latency = kernel latency + device latency.</td></tr>
+
+
+<tr><td rowspan="2">write</td>
+<td>rate</td><td>kiloBytesPerSecond</td><td>2</td><td>2</td><td>average</td><td>
+Write rate
+</td><td>VirtualMachine<br>HostSystem<br>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Rate of writing data to the datastore.</td></tr>
+
+
+</tbody></table>

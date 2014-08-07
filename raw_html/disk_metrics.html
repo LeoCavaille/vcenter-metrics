@@ -1,0 +1,347 @@
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+<tbody><tr>
+<th width="10%" valign="middle" title="PerfCounterInfo.nameInfo.key property">Counter</th>
+<!--<th rowspan="2" width="200">Description</th>-->
+<th width="10%"><a href="vim.PerformanceManager.CounterInfo.StatsType.html" class="white" title="StatsType">StatsType</a></th>
+<th width="10%"><a href="vim.PerformanceManager.CounterInfo.Unit.html" class="white">Unit</a></th>
+
+<th width="5%"><a href="vim.HistoricalInterval.html#level" class="white" title="The 'level' property is 'null' for ESX... Statistics are collected by vCenter Server and rolled-up based on the collection-level setting (1 is the default).">Level</a></th>
+<th width="5%"><a href="vim.PerformanceManager.CounterInfo.html" class="white" title="Per Device Level">Per<br>Device<br>Level</a></th>
+
+<th width="10%"><a href="vim.PerformanceManager.CounterInfo.RollupType.html" class="white" title="RollupType">RollupType</a></th>
+<th width="15%"><a href="vim.PerformanceManager.CounterInfo.html" class="white" title="PerfCounterInfo.nameInfo property is used to populate vSphere Client charts...">Label</a>
+</th>
+<th width="10%"><a href="vim.ManagedEntity.html" class="white" title="Entity for which the counter is supported.">Entity</a></th>
+<th width="10%"><a href="vim.PerformanceManager.MetricId.html" class="white" title="Indicates whether collection is from an &nbsp;
+individual instance or aggregate">Instance/<br>Aggregate</a></th>
+<th width="10%"><a href="" class="white" title="ESX version(s) for which this counter is supported.">ESX<br>Versions</a></th>
+</tr>
+<!-- close heading for table -->
+<tr><td rowspan="2">busResets</td>
+<td>delta</td><td>number</td><td>2</td><td>3</td><td>summation</td><td>
+Bus resets
+</td><td>VirtualMachine<br>HostSystem<br>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Number of SCSI-bus reset commands issued during the collection 
+<a href="vim.HistoricalInterval.html">interval</a>.</td></tr>
+
+
+<tr><td rowspan="2">capacity.contention</td>
+<td>absolute</td><td>percent</td><td>1</td><td>2</td><td>average</td><td>
+<!-- begin labels -->
+Storage Capacity Contention
+<!-- end labels -->
+</td><td>Datastore</td><td>aggregate</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+The amount of storage capacity overcommitment for the entity, measured in percent.
+</td></tr>
+
+
+<tr><td rowspan="2">capacity.provisioned</td>
+<td>absolute</td><td>kiloBytes</td><td>3</td><td>2</td><td>average</td><td>
+<!-- begin labels -->
+Storage Capacity Provisioned
+<!-- end labels -->
+</td><td>Datastore</td><td>aggregate</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Provisioned size of the entity:
+<ul>
+<li>Virtual disk: The maximum capacity size of the virtual disk.</li>
+<li>Virtual machine: The provisioned size of all virtual disks plus snapshot files
+and the swap file, if the VM is running.</li>
+<li>Datastore: The maximum capacity of the datastore.</li>
+<li>POD: The maximum capacity of all datastores in the POD.</li>
+</ul>
+</td></tr>
+
+
+<tr><td rowspan="2">capacity.usage</td>
+<td>absolute</td><td>kiloBytes</td><td>2</td><td>3</td><td>average</td><td>
+<!-- begin labels -->
+Storage Capacity Usage
+<!-- end labels -->
+</td><td>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+The amount of storage capacity currently being consumed by or on the entity.
+</td></tr>
+
+
+<tr><td rowspan="2">commands</td>
+<td>delta</td><td>number</td><td>2</td><td>3</td><td>summation</td><td>
+Commands issued
+</td><td>VirtualMachine<br>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Number of SCSI commands issued during the collection <a href="vim.HistoricalInterval.html">interval</a>.</td>
+</tr>
+
+
+<tr><td rowspan="2">commandsAborted</td>
+<td>delta</td><td>number</td><td>2</td><td>3</td><td>summation</td><td>
+Commands terminated
+</td><td>VirtualMachine<br>HostSystem<br>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Number of SCSI commands aborted during the collection <a href="vim.HistoricalInterval.html">interval</a>.</td>
+</tr>
+
+
+<tr><td rowspan="2">commandsAveraged</td>
+<td>rate</td><td>number</td><td>2</td><td>3</td><td>average</td><td>
+Average commands issued per second
+</td><td>VirtualMachine<br>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average number of SCSI commands issued per second during the collection interval.
+</td></tr>
+
+
+<tr><td rowspan="2">deltaused</td>
+<td>absolute</td><td>kiloBytes</td><td>2</td><td>3</td><td>latest</td><td>
+Overhead due to delta disk backings
+</td><td></td><td></td><td></td></tr>
+<tr><td colspan="9">
+Storage overhead of a virtual machine or a datastore due to delta disk backings.
+</td></tr>
+
+
+<tr><td rowspan="2">deviceLatency</td>
+<td>absolute</td><td>millisecond</td><td>1</td><td>1</td><td>average</td><td>
+Physical device command latency
+</td><td>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Average amount of time, in milliseconds, to complete a SCSI command from the physical device.</td>
+</tr>
+
+
+<tr><td rowspan="2">deviceReadLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>3</td><td>average</td><td>
+Physical device read latency
+</td><td>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Average amount of time, in milliseconds, to complete read from the physical device.</td></tr>
+
+
+<tr><td rowspan="2">deviceWriteLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>3</td><td>average</td><td>
+Physical device write latency
+</td><td>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Average amount of time, in milliseconds, to write to the physical device (LUN).</td></tr>
+
+
+<tr><td rowspan="2"><a name="kernelLatency"></a>kernelLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>3</td><td>average</td><td>
+Kernel command latency
+</td><td>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Average amount of time, in milliseconds, spent by VMkernel processing each SCSI command.</td></tr>
+
+
+<tr><td rowspan="2">kernelReadLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>3</td><td>average</td><td>
+Kernel read latency
+</td><td>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Average amount of time, in milliseconds, spent by VMKernel processing each SCSI read command. </td></tr>
+
+
+<tr><td rowspan="2"><a name="kernelWriteLatency"></a>kernelWriteLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>3</td><td>average</td><td>
+Kernel write latency
+</td><td>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Average amount of time, in milliseconds, spent by VMKernel processing each SCSI write command.</td></tr>
+
+
+<tr><td rowspan="2">maxQueueDepth</td>
+<td>absolute</td><td>number</td><td>1</td><td>1</td><td>average</td><td>
+Maximum queue depth
+</td><td>HostSystem</td><td>instance</td><td>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Maximum queue depth.</td></tr>
+
+
+<tr><td rowspan="2">maxTotalLatency</td>
+<td>absolute</td><td>millisecond</td><td>1</td><td>3</td><td>latest</td><td>
+Highest latency
+</td><td>VirtualMachine<br>HostSystem</td><td>aggregate</td><td>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Highest latency value across all disks used by the host. Latency measures
+the time taken to process a SCSI command issued by the guest OS to the
+virtual machine. The kernel latency is the time VMkernel takes to process
+an IO request. The device latency is the time it takes the hardware to handle
+the request.
+</td></tr>
+
+
+<tr><td rowspan="2">numberRead</td>
+<td>delta</td><td>number</td><td>3</td><td>3</td><td>summation</td><td>
+Read requests
+</td><td>VirtualMachine<br>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Number of disk reads during the collection <a href="vim.HistoricalInterval.html">interval</a>.
+<ul class="small">
+<li>VM - Number of times data was read from each virtual disk on the virtual machine.</li>
+<li>Host - Number of times data was read from each LUN on the host.</li>
+</ul>
+</td></tr>
+
+
+<tr><td rowspan="2">numberReadAveraged</td>
+<td>rate</td><td>number</td><td>1</td><td>1</td><td>average</td><td>
+Average read requests per second
+</td><td>VirtualMachine<br>HostSystem<br>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average number of read commands issued per second to the datastore during the collection interval.
+</td></tr>
+
+
+<tr><td rowspan="2">numberWrite</td>
+<td>delta</td><td>number</td><td>3</td><td>3</td><td>summation</td><td>
+Write requests
+</td><td>VirtualMachine<br>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">Number of disk writes during the collection <a href="vim.HistoricalInterval.html">interval</a>.
+<ul class="small">
+<li>VM - Number of times data was written to each virtual disk on the virtual machine.</li>
+<li>Host - Number of times data was written to each LUN on the host.</li>
+</ul>
+</td></tr>
+
+
+<tr><td rowspan="2">numberWriteAveraged</td>
+<td>rate</td><td>number</td><td>1</td><td>1</td><td>average</td><td>
+Average write requests per second
+</td><td>VirtualMachine<br>HostSystem<br>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average number of write commands issued per second to the datastore during the collection interval.
+</td></tr>
+
+
+<tr><td rowspan="2">queueLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>3</td><td>average</td><td>
+Queue command latency
+</td><td>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average amount of time spent in the VMkernel queue, per SCSI command,
+during the collection <a href="vim.HistoricalInterval.html">interval</a>.
+</td></tr>
+
+
+<tr><td rowspan="2">queueReadLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>3</td><td>average</td><td>
+Queue read latency
+</td><td>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average amount of time taken during the collection
+<a href="vim.HistoricalInterval.html">interval</a> per SCSI read command in the VMKernel queue.
+</td></tr>
+
+
+<tr><td rowspan="2">queueWriteLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>3</td><td>average</td><td>
+Queue write latency
+</td><td>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average amount time taken during the collection
+<a href="vim.HistoricalInterval.html">interval</a> per SCSI write command in the VMKernel queue.
+</td></tr>
+
+
+<tr><td rowspan="2">read</td>
+<td>rate</td><td>kiloBytesPerSecond</td><td>2</td><td>3</td><td>average</td><td>
+Read rate
+</td><td>VirtualMachine<br>HostSystem<br>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average number of kilobytes read from the disk each second during the collection <a href="vim.HistoricalInterval.html">interval</a>. 
+<ul class="small">
+<li>VM - Rate at which data is read from each virtual disk on the virtual machine.</li>
+<li>Host - Rate at which data is read from each LUN on the host.</li>
+</ul>
+read rate = # blocksRead per second x blockSize
+</td></tr>
+
+
+<tr><td rowspan="2">scsiReservationCnflctsPct</td>
+<td>absolute</td><td>percent</td><td>2</td><td>4</td><td>average</td><td>
+Disk SCSI Reservation Conflicts %
+</td><td></td><td></td><td></td></tr>
+<tr><td colspan="9">
+Number of SCSI reservation conflicts as a percent of total commands for the virtual disk during the collection interval.
+</td></tr>
+
+
+<tr><td rowspan="2">scsiReservationConflicts</td>
+<td>delta</td><td>number</td><td>2</td><td>2</td><td>summation</td><td>
+Disk SCSI Reservation Conflicts
+</td><td></td><td></td><td></td></tr>
+<tr><td colspan="9">
+Number of SCSI reservation conflicts for the virtual disk during the collection interval.
+</td></tr>
+
+
+<tr><td rowspan="2">throughput.contention</td>
+<td>absolute</td><td>millisecond</td><td>3</td><td>1</td><td>average</td><td>
+Disk Throughput Contention
+</td><td>ResourcePool</td><td>aggregate</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average amount of time for an I/O operation to complete.
+</td></tr>
+
+
+<tr><td rowspan="2">throughput.usage</td>
+<td>rate</td><td>kiloBytesPerSecond</td><td>3</td><td>1</td><td>average</td><td>
+Disk Throughput Usage
+</td><td>ResourcePool</td><td>aggregate</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Aggregated disk I/O rate. For hosts, this metric includes the rates for all virtual machines
+running on the host during the collection interval. 
+</td></tr>
+
+
+<tr><td rowspan="2">totalLatency</td>
+<td>absolute</td><td>millisecond</td><td>3</td><td>3</td><td>average</td><td>
+Command latency
+</td><td>HostSystemDatastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average amount of time taken during the collection
+<a href="vim.HistoricalInterval.html">interval</a> to process a SCSI command
+issued by the Guest OS to the virtual machine. The sum of kernelLatency and deviceLatency.
+</td></tr>
+
+
+<tr><td rowspan="2">totalReadLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>3</td><td>average</td><td>
+Read latency
+</td><td>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average amount of time taken during the collection
+<a href="vim.HistoricalInterval.html">interval</a> to process a SCSI read command
+issued from the Guest OS to the virtual machine. The sum of kernelReadLatency and deviceReadLatency.
+</td></tr>
+
+
+<tr><td rowspan="2">totalWriteLatency</td>
+<td>absolute</td><td>millisecond</td><td>2</td><td>3</td><td>average</td><td>
+Write latency
+</td><td>HostSystem</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average amount of time taken during the collection
+<a href="vim.HistoricalInterval.html">interval</a> to process a SCSI write command
+issued by the Guest OS to the virtual machine. The sum of kernelWriteLatency and deviceWriteLatency.
+</td></tr>
+
+
+<tr><td rowspan="2"><a name="usage"></a>usage</td>
+<td>rate</td><td>kiloBytesPerSecond</td><td>1&nbsp;(4)</td><td>4</td><td>average<br>(minimum)<br>(maximum)<br>(none)</td><td>
+Usage
+</td><td>VirtualMachine<br>HostSystem</td><td>aggregate</td><td></td></tr>
+<tr><td colspan="9">
+Aggregated disk I/O rate. For hosts, this metric includes the rates for all virtual machines
+running on the host during the collection <a href="vim.HistoricalInterval.html">interval</a>.
+</td></tr>
+
+
+<tr><td rowspan="2">write</td>
+<td>rate</td><td>kiloBytesPerSecond</td><td>1</td><td>3</td><td>average</td><td>
+Write rate
+</td><td>VirtualMachine<br>HostSystem<br>Datastore</td><td>instance</td><td>3.5.0<br>4.0.0<br>4.1.0<br>5.0.0</td></tr>
+<tr><td colspan="9">
+Average number of kilobytes written to disk each second during the collection <a href="vim.HistoricalInterval.html">interval</a>. 
+<ul class="small">
+<li>VM - Rate at which data is written to each virtual disk on the virtual machine.</li>
+<li>Host - Rate at which data is written to each LUN on the host.
+</li>
+</ul>
+write rate = # blocksRead per second x blockSize
+</td></tr>
+
+
+</tbody></table>
